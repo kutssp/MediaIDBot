@@ -37,7 +37,11 @@ def send_photo(message):
     photo_file_id = 'ВАШ_АКТУАЛЬНЫЙ_PHOTO_FILE_ID'  # Замените на полученный file_id
     bot.send_photo(message.chat.id, photo=photo_file_id, caption="Вот ваше изображение")
 
-
+# Устанавливаем команды для бота
+bot.set_my_commands([
+    types.BotCommand("start", "Запуск"),
+    types.BotCommand("restart", "Перезапуск")
+])
 # Обработчик команды /start
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
@@ -56,4 +60,3 @@ def start_bot():
 # Запуск бота
 if __name__ == "__main__":
     start_bot()
-
