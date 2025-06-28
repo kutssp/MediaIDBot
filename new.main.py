@@ -3,7 +3,7 @@ import time
 from telebot import types
 
 # Инициализация бота
-API_TOKEN = '7914731438:AAFAsVPuuHL_nvoCKzB6d-CFCjwZatHeL0o'  # Замените на ваш токен бота
+API_TOKEN = '7914731438:AAFAsVPuuHL_nvoCKzB6d-CFCjwZatHeL'  # Замените на ваш токен бота
 bot = telebot.TeleBot(API_TOKEN)
 
 # Обработчик загрузки видео, документов и аудио
