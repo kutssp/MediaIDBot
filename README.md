@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/file_id.png" alt="MediaIDBot Logo" width="200"/>
+</p>
+
 ## 📌 MediaIDBot
 
 **MediaIDBot** — это простой Telegram-бот для получения уникальных идентификаторов (`file_id`) медиафайлов, отправленных в чат.  
