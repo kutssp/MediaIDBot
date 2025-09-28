@@ -16,7 +16,7 @@
    ```bash
    git clone https://github.com/kutssp/MediaIDBot.git
    cd MediaIDBot
-```
+   ```
 
 2. Установите зависимости:
 
