@@ -8,7 +8,7 @@ MediaIDBot — это Telegram-бот, который позволяет пол�
 1. Склонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/yourusername/MediaIDBot.git
+   git clone https://github.com/kutssp/MediaIDBot.git
    cd MediaIDBot
    ```
 
